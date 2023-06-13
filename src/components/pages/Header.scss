@@ -1,0 +1,27 @@
+.home{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 96px); 
+    background: url(../../images/3b3a6809541470b56565ef3e4002ef6591b6dded58ea89f16d5fa1b4e38a.jpeg);
+    h1{
+        font-family: sans-serif;
+        width: 700px;
+        margin-left: 250px;
+        padding-top: 300px;
+    }
+    p{
+        width: 700px;
+        margin-left: 250px;
+        padding: 10px 0;
+        font-family: sans-serif;
+    }
+    button{
+        margin-left: 250px;
+        padding: 10px 30px; 
+        border-radius: 30px;
+        font-size: 1.2rem;
+        border: none;
+        backdrop-filter: blur(5px);
+    }
+}
