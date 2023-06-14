@@ -29,4 +29,10 @@
             }
         }
     }
+    @media only screen and (max-width:920px) {
+        &{
+            padding: 15px 20px;
+            
+        }
+    }
 }

@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    .text{
+        width: 700px;
+        padding-left: 100px;
+        margin-top: 200px;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        h1{
+        text-align: center;
+
+            padding: 40px;
+        }
+        h5{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        button{
+            text-align: left;
+            padding: 10px 30px;
+            border-radius: 10px;
+            border: none;
+            background: black;
+            color: #fff;
+            margin: 10px;
+            &:hover{
+                background: #2e2929a4;
+                color: #fffdfd;
+                transition: .5s;
+            }
+        }
+    }
+    .img{
+        margin-top: 100px;
+        margin-left: 300px;
+        width: 700px;
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../../images/1-1.jpg);
+    }
+}
