@@ -7,15 +7,7 @@
         font-size: 1.5rem;
         font-family: sans-serif;
         h1{
-        text-align: center;
-
             padding: 40px;
-        }
-        h5{
-            text-align: left;
-        }
-        p{
-            text-align: left;
         }
         button{
             text-align: left;
@@ -29,6 +21,7 @@
                 background: #2e2929a4;
                 color: #fffdfd;
                 transition: .5s;
+                cursor: pointer;
             }
         }
     }
@@ -40,5 +33,26 @@
         background-position: center;
         background-size: cover;
         background-image: url(../../images/1-1.jpg);
+    }
+    @media only screen and (max-width:920px){
+        &{
+            text-align: center;
+            display: block;
+            height: 100vh;
+            padding: 5px 0;
+            .text{
+                margin-top: 1px;
+                padding: 0 5px;
+                text-align: center;
+                width: 380px;
+            }
+            .img{
+                margin-left: 5px;
+                width: 380px;
+                padding: 0 5px;
+                height: 370px;
+                margin-top: 10px;
+            }
+        }
     }
 }

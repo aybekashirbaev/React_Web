@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.section {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/web-design-2906159_1920.jpg);
+    .section-logo {
+        font-family: 'Pacifico', cursive;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .text-card {
+        margin-left: 550px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        box-shadow: -3px 6px 6px 3px  rgb(0, 0, 0);
+        width: 800px;
+        position: absolute;
+        background: rgb(233, 232, 246);
+        border: 1px solid #fff;
+        height: 80vh;
+        margin-top: 40px;
+        background: linear-gradient(180deg, rgba(201, 201, 202, 0.137) 0%, rgb(32, 35, 36) 68%);
+        .text-1{
+            text-align: center;
+            width: 300px;
+            font-family: sans-serif;
+            color: #e4dede;
+            p{
+                font-family: 'Pacifico', cursive;
+                padding: 10px;
+            }
+            button{
+                padding: 5px;
+                border: none;
+                background: red;
+                color: #fff;
+                margin: 5px;
+            }
+        }
+        .text-2{
+            display: flex;
+            padding-top: 90px;
+            color: #cac9c9;
+            font-family: sans-serif;
+            .texts-1{
+                text-align: right;
+                width: 300px;
+                h3{
+                    padding-bottom: 15px;
+                }
+                button{
+                    padding: 5px;
+                    border: none;
+                    background: red;
+                    color: #fff;
+                    margin: 5px;
+                }
+            }
+            .img-card{
+                margin-left: 100px;
+                width: 350px;
+                h3{
+                    padding-bottom:15px ;
+                }
+                .card-1{
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                }
+                .img{
+                    padding: 10px;
+                    width: 100px;
+                    height: 80px;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 50%;
+                    background-image: url(../../images/150204_ff_sexymoney.jpg);
+                }
+            }
+        }
+    }
+}
+
+.bac-2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../../images/ca97da02940be752500f27f233d32fd0.jpg );
+}

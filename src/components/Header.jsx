@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import './Header.scss'
+import { useState } from 'react';
 const Header = () => {
     const [click, setClick] = useState(false);
     const [navbar, setNavbar] = useState(false)

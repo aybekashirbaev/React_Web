@@ -29,10 +29,41 @@
             }
         }
     }
+    .hamburger{
+        display: none;
+    }
     @media only screen and (max-width:920px) {
         &{
             padding: 15px 20px;
-            
+            .nav{
+                display: block;
+                background-color: rgba(0, 0, 0, 0.767);
+                top: 85px;
+                width: 100%;
+                text-align: center;
+                display: none;
+                transition: .5s ease-in-out;
+                flex-direction: column;
+                position: absolute;
+                height: 0vh;
+
+                li{
+                    padding: 30px;
+                    .link{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .nav.active{
+                left: 0;
+                display: block;
+                height: 50vh;
+            }
+            .hamburger{
+                display: block;
+                color: #fff;
+                font-size: 2rem;
+            }
         }
     }
 }
