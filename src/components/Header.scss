@@ -37,7 +37,7 @@
             padding: 15px 20px;
             .nav{
                 display: block;
-                background-color: rgba(0, 0, 0, 0.767);
+                background-color: rgb(0, 0, 0);
                 top: 85px;
                 width: 100%;
                 text-align: center;
@@ -58,6 +58,7 @@
                 left: 0;
                 display: block;
                 height: 50vh;
+                position: absolute;
             }
             .hamburger{
                 display: block;

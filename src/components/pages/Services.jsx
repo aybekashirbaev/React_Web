@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div>
             <div className="section">
-                <h1 className='section-logo'>Section</h1>
+                <h1 className='section-logo'>Services</h1>
                     <div className="text-card">
                         <div className="text-1">
                             <h1>I am <br /> Web-Developer</h1>
@@ -27,7 +27,7 @@ const Services = () => {
                         </div>
                     </div>
             </div>
-            <div className="bac-2"></div>
+            
 
         </div>
     );
