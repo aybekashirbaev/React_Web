@@ -1,67 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
     background-color: black;
     color: #fff;
     align-items: center;
-    .logo{
+
+    .logo {
         font-family: 'Pacifico', cursive;
         font-size: 2rem;
         color: Yellow;
     }
-    .nav{
+
+    .nav {
         display: flex;
-        li{
+
+        li {
             list-style: none;
             padding: 15px;
-            .link{
+
+            .link {
                 color: #fff;
                 text-decoration: none;
                 font-family: sans-serif;
                 font-size: 1.2rem;
-                &:hover{
-                    border-bottom: 1px solid #fff ;
+
+                &:hover {
+                    border-bottom: 1px solid #fff;
                     padding: 5px 0;
                     transition: .1s;
                 }
             }
         }
     }
-    .hamburger{
+
+    .hamburger {
         display: none;
     }
+
     @media only screen and (max-width:920px) {
-        &{
+        & {
             padding: 15px 20px;
-            .nav{
+
+            .nav {
                 z-index: 999;
-                display: block;
                 background-color: rgb(0, 0, 0);
                 top: 85px;
-                width: 100%;
-                text-align: center;
-                display: none;
+                width: 0px;
                 transition: .5s ease-in-out;
                 position: absolute;
-                height: 0vh;
+                height: 50vh;
                 transition: .5s ease-in-out;
-                li{
+                left: 0;
+
+                ul {
+                    display: none;
+                }
+
+                li {
                     padding: 30px;
-                    .link{
+
+                    .link {
                         font-size: 1.5rem;
                     }
                 }
             }
-            .nav.active{
-                z-index: 999;
-                left: 0;
-                display: block;
-                height: 50vh;
-                position: absolute;
+
+            .nav.active {
+                width: 100%;
+                padding-left: 100px;
+
+                ul {
+                    display: inline;
+                }
             }
-            .hamburger{
+
+            .hamburger {
                 display: block;
                 color: #fff;
                 font-size: 2rem;

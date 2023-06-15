@@ -13,8 +13,8 @@ const Header = () => {
         <>
             <div className='navigation'>
                 <div className="logo">React_WebSite</div>
-                <nav className={navbar ? 'navbar active' : 'navbar'}>
-                    <ul className={click ? "nav active" : "nav"}>
+                <nav className={click ? "nav active" : "nav"}z>
+                    <ul >
                         <li onClick={closeMobileMenu}>
                             <i class="fa-solid fa-house"></i>
                             <Link to='/' className='link'> Home</Link>
