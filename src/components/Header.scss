@@ -36,6 +36,7 @@
         &{
             padding: 15px 20px;
             .nav{
+                z-index: 999;
                 display: block;
                 background-color: rgb(0, 0, 0);
                 top: 85px;
@@ -43,10 +44,9 @@
                 text-align: center;
                 display: none;
                 transition: .5s ease-in-out;
-                flex-direction: column;
                 position: absolute;
                 height: 0vh;
-
+                transition: .5s ease-in-out;
                 li{
                     padding: 30px;
                     .link{
@@ -55,6 +55,7 @@
                 }
             }
             .nav.active{
+                z-index: 999;
                 left: 0;
                 display: block;
                 height: 50vh;
